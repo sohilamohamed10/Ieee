@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head> 
+<meta charset="utf-8">
+<title>IEEE workshops form</title>
+<style>
+	input[type=submit]{
+background-color: #4d4dff;
+ color: white;
+ border-radius: 5px;
+   width: 100%;
+   height:50px;
+   font: 2em;
+   border: 1px solid #ccccff ;
+     margin: 10px 0px;
+}
+input[type=text], select
+{
+border-radius: 5px;
+   width: 100%;
+   height:35px;
+   border: 1px solid #ccccff ;
+    margin: 10px 0px;
+   background-color: #f5f5f0;
+}
+input[type=email]
+{
+border-radius: 5px;
+   width: 100%;
+   height:35px;
+   border: 1px solid #ccccff ;
+   margin: 10px 0px;
+   background-color: #f5f5f0;
+}
+body{
+	font-size: 1.2em;
+	background-color:#e6e6ff;
+}
+label{
+	margin-left: 5px;
+}
+::placeholder{
+	font-size: 1.2em;
+	padding-left: 5px;
+}
+.select{
+   font-size: 18px; 
+	padding-left: 5px;
+}
+
+</style>
+</head>
+<body >
+	<form>
+<fieldset style="border-radius: 12px; width: 50%; margin: auto auto;">
+<legend>
+<img src="ieee_blue_logo.png" width="200" height="200">
+</legend>
+<label for="fullname">Fullname</label><br>
+<input type="text" name="fullname" placeholder="Your name..."><br>
+<label for="phone">Phone Number</label><br>
+<input type="text" name="phone"placeholder="Mobile..." ><br>
+<label for="email">Email</label><br>
+<input type="email" name="email" placeholder="Your email..."><br>
+<label for="uni">Faculty</label><br>
+<input type="text" name="uni" placeholder="Faculty.."><br>
+<label for="gy">Graduation Year</label><br>
+<select name="gy" class="select">
+	<option >Select a year</option>
+	<option >2021</option>
+	<option>2022</option>
+	<option>2023</option>
+	<option>2024</option>
+	<option>2025</option>
+</select>
+	
+
+<label for="first" >First Preference</label><br>
+<select name="first"class="select" >
+	<option >Select one</option>
+	<option  >Analog Electronics</option>
+	<option>Digital Electronics</option>
+	<option>Python</option>
+	<option>C++</option>
+	<option>Front end</option>
+	<option>Java</option>
+	<option>Arduino</option>
+	<option>Embedded Systems</option>
+</select><br>
+<label for="second" >Second Preference</label><br>
+<select name="second" class="select"   >
+	<option >Select one</option>
+	<option  >Analog Electronics</option>
+	<option>Digital Electronics</option>
+	<option>Python</option>
+	<option>C++</option>
+	<option>Front end</option> 
+	<option>Java</option>
+	<option>Arduino</option>
+	<option>Embedded Systems</option>
+</select><br>
+<input type="submit" value="Submit" >
+</fieldset></form>
+</body>
